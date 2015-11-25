@@ -1,0 +1,12 @@
+Nom:UpSourcing
+Pays:France
+Taille:20
+Poste:Chef projet web,Developpeur java,Developpeur iOS,Developpeur PHP,Developpeur interface administration,Developpeur JavaScript,Developpeur .NET
+Secteur_activite:Banque,Assurance,Industrie,Énergie,Santé,Jeux Vidéo,Média,Télécom,Web
+Salaire:50000
+Niveau_etude_requis:
+Tags:CDI,.net,iOS,Android,Java,PHP,NodeJS,Zend,C,C++,AngularJS,Synfony,Drupal,MySQL,Ajax
+Sources:www.chooseyourboss.com/companies/upsourcing
+Lien_offre:www.chooseyourboss.com/companies/upsourcing
+Images:http://www.upsourcing.fr/wp-content/uploads/2013/05/logoTotal_alpha2.png
+Description:Notre expertise : UpSourcing est un cabinet de recrutement 2.0, chasseur de tête, spécialisé dans les métiers de l’IT, du Web et du Mobile. Notre force : Comprendre les besoins de l’employeur et les envies du candidat. Notre expertise opérationnelle nous permet une analyse fine des enjeux.

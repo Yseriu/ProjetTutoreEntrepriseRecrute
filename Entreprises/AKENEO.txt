@@ -1,0 +1,12 @@
+Nom:AKENEO
+Pays:France
+Taille:100
+Poste:Developpeur Symfony,Chef de projet,
+Secteur_activite:Web
+Salaire:40000
+Niveau_etude_requis:
+Tags:Symphony,PHP,JavaScript
+Sources:www.chooseyourboss.com/companies/akeneo
+Lien_offre:www.chooseyourboss.com/companies/akeneo
+Images:http://www.akeneo.com/wp-content/uploads/2013/05/logo-square.jpg
+Description:Akeneo développe une solution de gestion de catalogue dédiée aux e-commerçants et déjà utilisée par des clients prestigieux comme Auchan, Feu Vert, Lancaster ou Sergent Major. Simple et ergonomique, notre outil s’appuie sur des technologies web à la pointe (Symfony2, jQuery, MongoDB, …). Last but not least : Akeneo est une solution 100% open-source! Crée par une équipe franco-américaine de passionnés ayant oeuvré depuis plusieurs années dans le monde de l’e-commerce et de l’open-source, nous sommes une société jeune, dynamique et internationale!

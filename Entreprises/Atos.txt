@@ -1,0 +1,12 @@
+Nom:Atos
+Pays:France
+Taille:93000
+Poste:Ingénieur système,Administrateur base de donnée,Ingénieur sécurité,Ingénieur en sécurité,Chef de projet,Support
+Secteur_activite:Défense,Services financiers,Santé,Industrie,Médias,Services aux collectivités,secteur Public,Distribution,Télécoms,Transports
+Salaire:45000
+Niveau_etude_requis:+3,+5,+8
+Tags:BDD,Système,Réseau,Sécurité,Chef de projet,Web,Programmeur,Analyste,Support
+Sources:careers.atos.net,fr.wikipedia.org/wiki/Atos,www.atos.net
+Lien_offre:careers.atos.net
+Images:https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Atos.svg/800px-Atos.svg.png
+Description:Atos SE (Société Européenne) est une entreprise leader de services numériques avec un chiffre d’affaires annuel de près de 11 milliards d’euros et 93 000 collaborateurs dans 72 pays. Atos fournit à ses clients du monde entier des services de conseil et d’intégration de systèmes, d’infogérance et de BPO, de Big Data et de Cyber-sécurité, d’opérations Cloud et des services transactionnels par l’intermédiaire de Worldline, le leader européen et un acteur mondial dans les services de paiement. Grâce à son expertise technologique et sa connaissance sectorielle pointue, Atos sert des clients dans différents secteurs : Défense, Services financiers, Santé, Industrie, Médias, Services aux collectivités, secteur Public, Distribution, Télécoms et Transports. Atos déploie les technologies qui accélèrent le développement de ses clients et les aident à réaliser leur vision de l’entreprise du futur. Atos est le partenaire informatique mondial des Jeux Olympiques et Paralympiques. Le Groupe est coté sur le marché Euronext Paris et exerce ses activités sous les marques Atos, Atos Consulting, Atos Worldgrid, Bull, Canopy et Worldline.
