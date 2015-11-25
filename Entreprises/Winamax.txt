@@ -1,0 +1,12 @@
+Nom:Winamax
+Pays:France
+Taille:100
+Poste:Ingénieur réseau et système
+Secteur_activite:Système,Réseau,
+Salaire:46000
+Niveau_etude_requis:
+Tags:Linux,GNU,Scripting,CDI
+Sources:www.chooseyourboss.com/companies/winamax
+Lien_offre:https://www.chooseyourboss.com/companies/winamax
+Images:http://pnimg.net/w/articles/4/4f0/1cd582b8fb.jpg
+Description:Winamax est un site de jeux en ligne (poker, paris sportifs), l'un des plus fiables du marché. Les positions prises par Winamax dans le poker en ligne et dans les paris sportifs résultent d'une innovation constante tant sur le plan marketing&communication, que sur un plan technologique. Les informaticiens représentent un tiers du Staff Winamax, actuellement de 100 salariés.

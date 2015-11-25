@@ -1,0 +1,12 @@
+Nom:BlaBlaCar
+Pays:France
+Taille:500
+Poste:Developpeur web,Developpeur application iOS / Android,
+Secteur_activite:Dévelopement web,Ingénieur d'application,Développeur android,Développeur iOS
+Salaire:45000
+Niveau_etude_requis:
+Tags:Synfony,Java,iOS,Android,CDI,PHP,GIT,Python,Cassandra
+Sources:www.chooseyourboss.com,fr.wikipedia.org/wiki/BlaBlaCar
+Lien_offre:https://www.chooseyourboss.com/companies/blablacar
+Images:http://www.parigotmanchot.fr/wp-content/uploads/blablacar.jpg
+Description:BlaBlaCar, anciennement Covoiturage.fr, est une plateforme communautaire payante de covoiturage. La mise en relation entre usagers, gratuite pendant de nombreuses années, est devenue payante en 2011, de l'ordre de 11 % du prix du covoiturage. Avec 20 millions d'utilisateurs en 2015, BlaBlaCar est leader mondial du covoiturage.

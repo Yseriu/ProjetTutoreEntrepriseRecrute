@@ -1,0 +1,18 @@
+Nom: Crédit Agricole Protection & Sécurité
+Pays: France
+Taille:
+Poste: Opérateur téléparamètrage
+Secteur_activite: Emploi Réseaux
+Salaire: 20 à 30 000 €/an
+Niveau_etude_requis: 0 à 2 ans
+Tags: CDI
+Sources:http://www.directemploi.com/offre/2826841/operateur-teleparametrage
+Lien_offre:http://www.directemploi.com/offre/2826841/operateur-teleparametrage
+Images: http://www.credit-agricole.com/extension/cadesignv2/design/cadesignv2/images/logo.png
+Description: Vous intégrerez une équipe sur un plateau spécialisé dans la programmation de systèmes de sécurité électronique. Après une formation interne aux outils et aux méthodes de travail, vous assurerez à distance et en relation avec nos équipes techniques itinérantes les missions suivantes :
+• traiter par téléphone les demandes de raccordement des nouvelles installations,
+• configurer et paramétrer les équipements,
+• garantir la mise en conformité des installations,
+• effectuer les essais fonctionnels,
+• assurer à distance la télémaintenance et la modification des programmations,
+• renseigner les supports de suivi d'intervention, etc.
