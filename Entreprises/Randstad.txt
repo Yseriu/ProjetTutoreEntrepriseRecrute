@@ -1,0 +1,12 @@
+Nom: Randstad
+Pays: France - Belgique - Allemagne - GB (Teletravail)
+Taille: Grande
+Poste: Analyste Développeur
+Secteur_activite: Emploi
+Salaire: (Non Renseigné)
+Niveau_etude_requis: (Bac +3)
+Tags: CDD / Intérim / Mission, CDI
+Sources: https://www.randstad.be/
+Lien_offre: http://www.moovijob.com/offre-emploi-franceluxembourgsuisseallemagnebelgique-analyst-developer-m-f-french-%E2%80%93-english-informatique-multimedia-telecom-randstad-interim-luxembourg-2637585.html
+Images: https://www.randstad.be/randstadtheme/images/randstad.gif
+Description: Entreprise de recrutement dans divers secteurs

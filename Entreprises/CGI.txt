@@ -1,0 +1,12 @@
+Nom: CGI Luxembourg
+Pays: Luxembourg
+Taille: Grande
+Poste: Analyste Développeurs mobile Android
+Secteur_activite: Variés 
+Salaire: (Non Renseigné)
+Niveau_etude_requis: Bac +5
+Tags: CDI
+Sources: http://www.cgi.com/fr/luxembourg
+Lien_offre: http://www.moovijob.com/offre-emploi-luxembourg-analyste-developpeur-mobile-android-informatique-multimedia-telecom-cgi-luxembourg-2586647.html
+Images: http://www.cgi.com/sites/all/themes/cgi/logo.png
+Description: Entreprise de développement de solutions logiciels dans des secteurs variés

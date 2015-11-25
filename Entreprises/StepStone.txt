@@ -1,0 +1,12 @@
+Nom:StepStone
+Pays: Belgique
+Taille: Grande
+Poste: Web Designer
+Secteur_activite: Emploi
+Salaire: (Non Renseigné)
+Niveau_etude_requis: Etudiant
+Tags:
+Sources: http://www.stepstone.be
+Lien_offre:http://www.stepstone.be/offres-d-emploi--Junior-Web-Designer-Student-Bruxelles-STEPSTONE--1370276-inline.html
+Images: http://www.stepstone.be/5/resources/images/stepstone-logo.gif
+Description: Entreprise de recrutement dans divers secteurs
