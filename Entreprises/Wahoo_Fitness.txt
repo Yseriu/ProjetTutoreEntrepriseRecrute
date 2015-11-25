@@ -1,0 +1,12 @@
+Nom: Wahoo Fitness
+Pays: USA, Georgie
+Taille: PME
+Poste: Ingénieur Firmware, Dev iOS
+Secteur_activite: Sport
+Salaire: 
+Niveau_etude_requis: +3
+Tags: java, c++, python, php,
+Sources: 
+Lien_offre: http://careers.stackoverflow.com/jobs/85259/awesome-firmware-engineer-for-fitness-devices-wahoo-fitness
+Images: 
+Description:
