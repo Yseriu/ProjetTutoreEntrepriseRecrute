@@ -1,0 +1,12 @@
+Nom:Thales
+Pays:France
+Taille:66447
+Poste:R&D logiciel,R&D matériel,ingénierie systèmes & études générales,management offres et projets,industrie
+Secteur_activite:Défense,Aéronautique,Spatial,Sécurité,Transport
+Salaire:33614
+Niveau_etude_requis:+2,+3,BTS,DUT,Liscence,Ecole ingénieur
+Tags:BDD,Systeme,Support,Sécurité,Administrateur réseau
+Sources:www.letudiant.fr
+Lien_offre:http://www.letudiant.fr/fiches/les-entreprises-qui-recrutent/fiche/thales-bac-2-3.html
+Images:http://logodatabases.com/wp-content/uploads/2012/07/thales-logo.jpg,
+Description:Partout où des décisions critiques doivent être prises, Thales est présent. Sur les marchés que nous servons – aéronautique, espace, transport terrestre, sécurité, défense –, nous assurons la maîtrise de la « chaîne de décision critique » pour aider nos clients à choisir la meilleure option. L'expertise de ses 61 000 collaborateurs, sa puissance technologique et sa présence opérationnelle dans 56 pays font de Thales un acteur clé de la sécurité des citoyens, des infrastructures et des États.
