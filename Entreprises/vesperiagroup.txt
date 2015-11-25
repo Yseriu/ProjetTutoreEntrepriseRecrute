@@ -1,0 +1,12 @@
+Nom: Vesperia Group
+Pays: Belgique
+Taille: Moyenne
+Poste: Developpeur Drupal
+Secteur_activite: IT
+Salaire: (Non renseigné)
+Niveau_etude_requis: Bac +3
+Tags: CDI - Expérience requise: 2 ans
+Sources: http://www.vesperiagroup.com/
+Lien_offre: http://www.moovijob.com/offre-emploi-luxembourg-developpeur-drupal-medior-informatique-multimedia-telecom-vesperia-2626794.html
+Images: http://www.vesperiagroup.com/wp-content/uploads/2013/12/Vesperia1.png
+Description: Spécialisés dans le web (PHP) dans le développement d'application web  

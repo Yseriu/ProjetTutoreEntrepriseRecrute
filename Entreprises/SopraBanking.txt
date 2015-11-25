@@ -1,0 +1,12 @@
+Nom: Sopra Banking
+Pays: Belgique/Luxembourg
+Taille: Grande
+Poste: Database Developer / .NET Developer
+Secteur_activite: Banques
+Salaire: (non Renseingé)
+Niveau_etude_requis: Bac +3
+Tags:CDI
+Sources: http://www.soprabanking.com/fr
+Lien_offre: http://www.moovijob.com/offre-emploi-luxembourgbelgique-database-developer-junior-net-developer-mechelen-informatique-multimedia-telecom-sopra-banking-software-2437665.html
+Images: http://www.soprabanking.com/images/librariesprovider17/soprabankingsoftware/sopra_logo_banking-software_rgb.png?sfvrsn=4
+Description: Développeurs de logiciels de Solution logicieles pour des Banques
