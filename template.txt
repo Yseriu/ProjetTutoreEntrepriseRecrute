@@ -1,0 +1,12 @@
+Nom:
+Pays:
+Taille:
+Poste:
+Secteur_activite:
+Salaire:
+Niveau_etude_requis:
+Tags:
+Sources:
+Lien_offre:
+Images:
+Description:
