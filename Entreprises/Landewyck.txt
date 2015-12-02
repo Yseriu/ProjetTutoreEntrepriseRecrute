@@ -1,0 +1,12 @@
+Nom:Landewyck
+Pays: Luxemburg
+Taille: 
+Poste: Analyste programmer Delphi(Win32) 
+Secteur_activite: Industrie
+Salaire: (Non Renseigné)
+Niveau_etude_requis: bac +3
+Tags: CDI temps, plein
+Sources: http://www.hvl.lu/
+Lien_offre:http://www.stepstone.be/offres-d-emploi--Analyste-Programmeur-Delphi-m-f-Luxembourg-Heintz-van-Landewyck-s-a-r-l--1385895-inline.html
+Images: http://www.hvl.lu/fileadmin/hvl/static/logo_landewyck.png
+Description: Fabricants de differentes varietes de tabacs

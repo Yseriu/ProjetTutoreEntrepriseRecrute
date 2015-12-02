@@ -1,0 +1,12 @@
+Nom:ProduPresse
+Pays: Belgique
+Taille:
+Poste: Web Developper
+Secteur_activite: Presse
+Salaire: (non renseigné)
+Niveau_etude_requis: bac à bac +2
+Tags: CDI, temps plein
+Sources: http://www.produpress.be/
+Lien_offre: http://www.stepstone.be/offres-d-emploi--Web-Developer-front-end-and-mobile-Forest-Produpress--1388934-inline.html
+Images: http://www.produpress.be/wp-content/themes/pp_theme/images/logo_produpress.gif
+Description: ProduPress est un groupe de presse familial de plus de soixante personnes qui est connu pour l’édition de plusieurs magazines de très haute qualité

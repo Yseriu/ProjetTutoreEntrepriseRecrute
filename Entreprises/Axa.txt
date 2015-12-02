@@ -1,0 +1,12 @@
+Nom:Axa
+Pays: Belgique
+Taille: Grande
+Poste: Developpeur infrastructure d'applications
+Secteur_activite: Banques, Assurences
+Salaire: (Non renseigné)
+Niveau_etude_requis: bac +3 à bac +5 
+Tags: CDI, temps plein
+Sources: http://www.axa.be/
+Lien_offre: http://www.stepstone.be/offres-d-emploi--Application-Infrastructure-Architect-Axa-Tech-Bruxelles-AXA-Group-Belgium--1387954-inline.html
+Images: https://www.axa.be/_layouts/be.AXA.Shared.Sharepoint.Branding.Masterpage/_img/logo_en.png
+Description: Banque et assurence d'influence mondiale depuis 2002
