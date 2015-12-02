@@ -8,7 +8,7 @@ Niveau_etude_requis: +5
 Tags: java, web, android, sql, c, c#, cdi, cdd, stage
 Sources: 
 Lien_offre: http://www.groupeonepoint.com/recherche-offre-emploi
-Images: 
+Images: https://sso.groupeonepoint.com/images/gop_logo.png
 Description:Rejoignez une société de conseil et de services du numérique en fort développement.
 Vous souhaitez vous spécialiser dans le domaine du Web et plus spécifiquement sur des projets de design, de refonte et d’ergonomie ?
 Alors, intégrez une équipe dédiée à l’accompagnement de projets de transformation SI majeurs.

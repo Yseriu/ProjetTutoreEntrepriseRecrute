@@ -1,10 +1,10 @@
 Nom:Thales
 Pays:France
 Taille:66447
-Poste:R&D logiciel,R&D matériel,ingénierie systèmes & études générales,management offres et projets,industrie
+Poste:R&D,Système
 Secteur_activite:Défense,Aéronautique,Spatial,Sécurité,Transport
 Salaire:33614
-Niveau_etude_requis:+2,+3,BTS,DUT,Liscence,Ecole ingénieur
+Niveau_etude_requis:+2 +3
 Tags:BDD,Systeme,Support,Sécurité,Administrateur réseau
 Sources:www.letudiant.fr
 Lien_offre:http://www.letudiant.fr/fiches/les-entreprises-qui-recrutent/fiche/thales-bac-2-3.html

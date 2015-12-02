@@ -1,6 +1,6 @@
 Nom: ERDF
 Pays: France
-Taille: SA
+Taille: 38000
 Poste: Telecommunications, Génie informatique (Chargé d'affaires informatique et télécom)
 Secteur_activite: Distribution d'énergie
 Salaire: Aucun salaire à l'embauche ne pourra être inférieur à 15 800 Euros par an. Pour un niveau CAP/BEP, le salaire annuel minimal est de 16 500 Euros, 17 300 Euros pour un niveau BAC, 17 700 Euros pour un niveau bac pro et 31 000 Euros pour un niveau ingénieur et maîtrise.

@@ -1,12 +1,12 @@
 Nom: Trip Advisor
 Pays: USA, Massachusetts
-Taille: ETI
+Taille: 2700
 Poste: Dev Web Serverside
-Secteur_activite:
+Secteur_activite: Voyage
 Salaire: 
 Niveau_etude_requis: +2, +3
 Tags: java, python, sql, shell
 Sources:
 Lien_offre: http://careers.stackoverflow.com/jobs/96178/software-engineer-personalization-tripadvisor
-Images:
-Description:
+Images:https://lh6.ggpht.com/HFEY3KBKib3fDvaRlg-CoD9pUtohab7orq-2bZNPFSqm0WkNugK09svuToO1xaHW-ls=w300
+Description:TripAdvisor est un site web international d'origine américaine qui offre des avis et des conseils touristiques émanant de consommateurs (hôtels, restaurants, villes et régions, lieux de loisirs, etc.) et qui fournit également des outils de réservation de logements et de billets d'avion comparant des centaines de sites web afin de trouver les meilleurs prix.
