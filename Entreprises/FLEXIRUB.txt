@@ -1,11 +1,11 @@
 Nom: Flexirub
 Pays: France
-Taille: PME
+Taille: 40
 Poste: Responsable des systèmes d'information
 Secteur_activite: Conception, Production de structures souples (membranes elastomères)
-Salaire: 30 à 40 000 €/an
-Niveau_etude_requis: 2 à 5 ans
-Tags: CDI 
+Salaire: 35 000 €/an
+Niveau_etude_requis: +2 +5
+Tags: CDI, sage, Excel, Word, VBA, SQL
 Sources: http://www.directemploi.com/offre/2827553/responsable-des-systemes-d-information
 Lien_offre: http://www.directemploi.com/offre/2827553/responsable-des-systemes-d-information
 Images: http://www.flexirub.com/wp-content/uploads/2015/02/LOGO-FLEXIRUB.png

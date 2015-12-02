@@ -1,6 +1,6 @@
 Nom: Crédit Agricole Protection & Sécurité
 Pays: France
-Taille:
+Taille: 150000
 Poste: Opérateur téléparamètrage
 Secteur_activite: Emploi Réseaux
 Salaire: 20 à 30 000 €/an

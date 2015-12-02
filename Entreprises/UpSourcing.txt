@@ -1,8 +1,8 @@
 Nom:UpSourcing
 Pays:France
 Taille:20
-Poste:Chef projet web,Developpeur java,Developpeur iOS,Developpeur PHP,Developpeur interface administration,Developpeur JavaScript,Developpeur .NET
-Secteur_activite:Banque,Assurance,Industrie,Énergie,Santé,Jeux Vidéo,Média,Télécom,Web
+Poste:Chef projet,Dev,IHM
+Secteur_activite:Recrutement
 Salaire:50000
 Niveau_etude_requis:
 Tags:CDI,.net,iOS,Android,Java,PHP,NodeJS,Zend,C,C++,AngularJS,Synfony,Drupal,MySQL,Ajax

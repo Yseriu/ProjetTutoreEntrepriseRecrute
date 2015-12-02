@@ -5,7 +5,7 @@ Poste:
 Secteur_activite:Gestion des données,Messagerie,Hébergement,Sécurisation
 Salaire:
 Niveau_etude_requis:
-Tags:BDD,Sécurité,Hébergement,Sécurité
+Tags:BDD,Sécurité,Hébergement
 Sources:www.irysius.fr,www.societe.com
 Lien_offre:
 Images:http://www.irysius.fr/wp-content/uploads/2012/10/logo.png
