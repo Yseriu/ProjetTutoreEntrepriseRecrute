@@ -1,0 +1,12 @@
+Nom:Wemanity
+Pays:France
+Taille:100
+Poste:Developpeur IOS, Developpeur Android, Consultant Big Data, Developpeur Symfony 2, Developpeur AngularJS
+Secteur_activite:Banque & Assurance,Industrie,Énergie,Santé,Jeux Vidéo,Média,Télécom,Web
+Salaire:45000
+Niveau_etude_requis:+5,Ingenieur
+Tags:xcode,java,c,c++,android,nosql,cassandra,php,mysql,symfony2,
+Sources:https://www.chooseyourboss.com/companies/wemanity,http://meetupstatic.com
+Lien_offre:https://www.chooseyourboss.com/companies/wemanity
+Images:http://photos1.meetupstatic.com/photos/member/d/b/0/8/highres_194396072.jpeg
+Description:Wemanity regroupe des agilistes de la première heure et des serial entrepreneurs qui placent l'agilité au cœur de l'entreprise et l'appliquent au quotidien dans leur travail. Notre rêve ? Changer le monde du travail et de l’entreprise en y promouvant la transparence, la congruence, l’amélioration continue...

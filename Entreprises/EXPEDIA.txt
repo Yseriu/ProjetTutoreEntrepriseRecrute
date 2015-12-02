@@ -1,0 +1,12 @@
+Nom:EXPEDIA
+Pays:France,Paris
+Taille:500
+Poste:Developpeur Java,Developpeur IOS,Ingénieur Production,Chef de projet E-Commerce,Ingénieur analyste,
+Secteur_activite:Web
+Salaire:15000,15000,60000,55000,70000,80000,55000,650000,75000
+Niveau_etude_requis:+3,+2,DUT,Ingenieur,+5
+Tags:CRM,Java,php,ios,android,linux,apache,sql
+Sources:https://www.chooseyourboss.com/companies/expedia,www.expediainc.com/expedia-brands
+Lien_offre:https://www.chooseyourboss.com/companies/expedia
+Images:http://www.expediainc.com/wp-content/uploads/2013/06/logo1.png
+Description:Expedia, Inc. est la société de voyage en ligne la plus importante et la plus innovante au monde. Les marques Expedia font désormais partie des sites de réservation de voyage en ligne les plus visités au monde et génèrent davantage de réservations pour les voyages de loisir qu'aucune autre agence en ligne ou traditionnelle. Au niveau international, les marques du groupe Expedia sont présentes dans 31 pays, plus de 85 sites.

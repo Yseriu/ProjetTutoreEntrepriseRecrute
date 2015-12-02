@@ -1,0 +1,12 @@
+Nom:Capgemini
+Pays:France
+Taille:500
+Poste:Developpeur JAVA,Consultant JAVA,Consultant SAP
+Secteur_activite:Web,Télécom,Média,Industrie,Énergie,Santé, Banque & Assurance
+Salaire:40000
+Niveau_etude_requis:+2,+3,+5,DUT,Ingenieur
+Tags:java,.net,mobile,php,c#,c++,oracle
+Sources:https://www.chooseyourboss.com/companies/capgemini-a4cdd3df-813b-412a-85cf-43a28edcebf4,https://www.fr.capgemini.com
+Lien_offre:https://www.chooseyourboss.com/companies/capgemini-a4cdd3df-813b-412a-85cf-43a28edcebf4
+Images:https://www.fr.capgemini.com/sites/all/themes/capgemini/logo.png
+Description:Fort de près de 145 000 collaborateurs et présent dans plus de 40 pays, Capgemini est l'un des leaders mondiaux du conseil, des services informatiques et de l'infogérance. Le Groupe a réalisé en 2014 un chiffre d'affaires de 10,6 milliards d'euros. Avec ses clients, Capgemini conçoit et met en oeuvre les solutions business et technologiques qui correspondent à leurs besoins et leur apporte les résultats auxquels ils aspirent. Profondément multiculturel, Capgemini revendique un style de travail qui lui est propre. Le groupe Capgemini est signataire de la Charte de la diversité 

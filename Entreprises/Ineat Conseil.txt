@@ -1,0 +1,21 @@
+Nom:Ineat Conseil
+Pays:France,Boulogne-Billancourt
+Taille:21
+Poste:Consultant technique .NET,Developpeur Java,Developpeur Mobile,
+Secteur_activite:Banque & Assurance,Industrie,Énergie,Santé,Média,Télécom,Web
+Salaire:50000
+Niveau_etude_requis:+3,+2,+5,Liscence,DUT,Ingénieur
+Tags:IOS,Java,android,c#,.net,c++
+Sources:https://www.chooseyourboss.com/companies/ineat-conseil,www.ineat-conseil.com
+Lien_offre:https://www.chooseyourboss.com/companies/ineat-conseil
+Images:http://www.ineat-conseil.com/wp-content/themes/ineat-conseil/assets/img/logo.svg
+Description:INEAT Conseil est une Entreprise de Services Digitale : nous sommes spécialisés dans la digitalisation des Systèmes d’Information et experts en développement high-tech.
+
+Nous intervenons ainsi sur:
+
+- Du Conseil (Stratégique et SI)
+- De l'Architecture (Urbanisation, BPM, Industrialisation)
+- Du Cross Canal: Mobilité, portails, Cloud et RSE
+- Du Data-Management: ECM, Big-Data, ETL et BI
+
+Nous comptons 120 collaborateurs, répartis sur une agence à Lille et une agence à Boulogne-Billancourt.

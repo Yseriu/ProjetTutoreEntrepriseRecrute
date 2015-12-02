@@ -1,0 +1,20 @@
+Nom:E-DEAL
+Pays:France
+Taille:21
+Poste:Developpeur Java,Ingénieur Java,Chef de projet CRM,Consultant CRM,
+Secteur_activite:Banque & Assurance,Industrie,Énergie,Santé,Média,Télécom,Web
+Salaire:40000
+Niveau_etude_requis:+5,+3,Liscence,Ingénieur
+Tags:css,js,javascript,crm,java,html,xml
+Sources:https://www.chooseyourboss.com/companies/e-deal,http://www.e-deal.com/
+Lien_offre:https://www.chooseyourboss.com/companies/e-deal
+Images:http://www.e-deal.com/wp-content/themes/e-deal/indexel/images/logo.png
+Description:Notre métier c'est ...
+• d'écouter : notre instinct, nos clients, les autres
+• d'imaginer : des solutions innovantes, des interfaces efficaces, des présentations percutantes
+• de respecter : les process qualité, les autres, nos engagements
+• de développer : nos compétences, notre créativité, nos parts de marché
+• d'anticiper : les attentes des clients, les problèmes, les tendances
+• de partager : nos expériences, notre savoir-faire, un verre
+
+E-DEAL, Customer Quintessence.

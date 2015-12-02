@@ -1,0 +1,15 @@
+Nom:WIFIRST
+Pays:France,Paris
+Taille:21
+Poste:Chef de projet télécom,Developpeur python,Developpeur réseau,Architecte technique réseau,Ingénieur structure réseau
+Secteur_activite:Télécom
+Salaire:50000
+Niveau_etude_requis:+5,+3,Ingénieur,Liscence
+Tags:chef de projet,réseau,python,django,linux,ruby
+Sources:https://www.chooseyourboss.com/companies/wifirst,http://www.wifirst.fr/
+Lien_offre:https://www.chooseyourboss.com/companies/wifirst
+Images:http://www.wifirst.fr/sites/all/themes/wifirst/logo.png
+Description:Wifirst est un opérateur télécom spécialisé dans le déploiement et l’exploitation de réseaux Wi-Fi dans les lieux de court/moyen séjours (hôtels, résidences, camping..) et dans les lieux ouverts au public.
+Wifirst répond aux besoins des entreprises et organismes qui souhaitent valoriser leur patrimoine, enrichir leur offre de service et améliorer l’accueil de la clientèle en proposant une connectivité haut débit et les services numériques associés.
+
+Intégrer Wifirst, c'est rejoindre un opérateur télécom complet, innovant et désireux de maîtriser l'ensemble de sa chaîne de valeur.

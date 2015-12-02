@@ -1,0 +1,12 @@
+Nom:SOAT
+Pays:France
+Taille:500
+Poste:Developpeur .NET,Developpeur Java,Developpeur JS,Developpeur Android,Developpeur IOS
+Secteur_activite:Banque & Assurance,Industrie,Énergie,Santé,Média,Télécom,Web
+Salaire:45000
+Niveau_etude_requis:+2,+3,+5,DUT,Ingenieur
+Tags:.net,c#,asp.net,java,javascript,angularjs,android,IOS
+Sources:https://www.chooseyourboss.com/companies/soat,http://www.soat.fr/
+Lien_offre:https://www.chooseyourboss.com/companies/soat
+Images:http://www.soat.fr/wp-content/themes/soat/images/logo.svg
+Description:SOAT regroupe près de 350 collaborateurs passionnés spécialisés dans les méthodes agiles, la conception et le développement d'applications autour des technologies Java/JEE, .Net, Web et Mobile. Nos consultants interviennent dans la conception et le développement de projets chez nos clients tout en bénéficiant du partage et de l'émulation de notre communauté interne. 

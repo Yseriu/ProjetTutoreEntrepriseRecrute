@@ -1,0 +1,12 @@
+Nom:iAdvize
+Pays:France
+Taille:101
+Poste:Developpeur Android,Developpeur Web,Developpeur IOS,Chef de projet
+Secteur_activite:Web
+Salaire:38000
+Niveau_etude_requis:+2,+3,+5,Liscence,Ingénieur
+Tags:android,java,git,php5,mysql,xcode,ios,html5,css3
+Sources:http://www.iadvize.com/fr/,https://www.chooseyourboss.com/companies/iadvize
+Lien_offre:https://www.chooseyourboss.com/companies/iadvize
+Images:http://www.iadvize.com/fr/wp-content/themes/iAdvizeV3/library/images/logo-iadvize.png
+Description:iAdvize est une startup de 120 personnes, leader sur le marché de la relation client digitale, basée à Nantes. Nous construisons une solution d’engagement multicanal en temps réel unique et innovante, dans un environnement à fort traffic (plus de 5000 utilisateurs actifs et 1,5 milliard de pages vues / mois !). 

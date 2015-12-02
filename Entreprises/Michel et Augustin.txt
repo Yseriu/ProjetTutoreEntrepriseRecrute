@@ -1,0 +1,15 @@
+Nom:Michel et Augustin
+Pays:France
+Taille:100
+Poste:Réponsable informatique
+Secteur_activite:Industrie,Energie,Santé
+Salaire:50000
+Niveau_etude_requis:+2,+3,+5,DUT,Ingenieur
+Tags:Gestion de projet,Chef de projet,Infrastructure
+Sources:https://www.chooseyourboss.com/companies/michel-et-augustin,http://www.entreprises-et-decideurs.fr,http://www.micheletaugustin.com
+Lien_offre:https://www.chooseyourboss.com/companies/michel-et-augustin
+Images:http://www.entreprises-et-decideurs.fr/photo/art/default/5816341-8671664.jpg?v=1378219903
+Description:Chez Michel et Augustin notre rêve ?
+*Faire sourire le MONDE en concoctant des produits gourmands et sains.
+*Partager, vivre et construire notre aventure en temps réel avec VOUS.
+Ô vous qui venez d’atterrir sur cette jolie page, vous rêvez de participer à notre aventure humaine et un peu folle ? MERCI. Nous y sommes très sensibles. 

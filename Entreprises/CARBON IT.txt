@@ -1,0 +1,12 @@
+Nom:CARBON IT
+Pays:France
+Taille:100
+Poste:Developpeur JAVA,Developpeur .NET, Developpeur Angular, Developpeur Node, 
+Secteur_activite:Banque & Assurance,Industrie,Énergie,Santé,Jeux Vidéo,Média,Télécom,Web
+Salaire:55000
+Niveau_etude_requis:+3,+5,Ingenieur
+Tags:Java,JEE,c#,.net,angular,node,visual-studio,javascript
+Sources:https://www.chooseyourboss.com/companies/carbon-it,http://www.carbon-it.fr
+Lien_offre:https://www.chooseyourboss.com/companies/carbon-it
+Images:http://www.carbon-it.fr/img/logo.png
+Description:CARBON IT est un cabinet de conseil dédié au Code et au Produit. Notre ambition est de promouvoir un code de qualité et de développer l’approche produit auprès de nos clients. Nous valorisons le partage des connaissances, et nous favorisons l’émergence des meilleures idées via l’intrapreneuriat. 
