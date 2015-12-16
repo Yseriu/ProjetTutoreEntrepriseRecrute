@@ -1,0 +1,25 @@
+body { margin:0; padding:5px 0px 0px 0px; font-family:sans-serif; } 
+h4,h3,h2,h1 { margin:0; }
+header { height:50px; width:100%; background:red; }
+
+#homeSearch { width:100%; height:650px;
+			background:#000 url('../img/home_img.png') no-repeat; 
+			background-size: 100%; 
+			}
+			
+#homeSearch #contentSearch {
+	width:75%; height:310px;
+	margin:0 auto;
+	padding-top:210px;
+	text-align:center;
+}
+
+#homeSearch #contentSearch h1 { color:#fff; text-transform:uppercase; font-size:2.7em; }
+#homeSearch #contentSearch h4 { color:#fff; font-size:0.9em; opacity:0.8; }
+#homeSearch #contentSearch input { 
+	background-color:#000; color:#fff; border:none; opacity:0.5; 
+	font-size:1em;
+	padding:20px 40px;;
+}
+
+#infosSite { width:100%; height:245px; background:#F5F5F5; }
