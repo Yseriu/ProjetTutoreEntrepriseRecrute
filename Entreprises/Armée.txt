@@ -1,0 +1,12 @@
+Nom: Armée
+Pays: France
+Taille: 
+Poste: Combatant du renseignement
+Secteur_activite: Armée
+Salaire: 22000
+Niveau_etude_requis: +2
+Tags: Armée, Renseignement
+Sources:https://www.recrutement.terre.defense.gouv.fr/nos-emplois/trouver-un-emploi-par-profil/item/250-combattant-du-renseignement-drones
+Lien_offre:https://www.recrutement.terre.defense.gouv.fr/nos-emplois/trouver-un-emploi-par-profil/item/250-combattant-du-renseignement-drones
+Images:
+Description:S’engager comme combattant du renseignement drones, c’est mettre en œuvre les dernières technologies du renseignement pour soutenir les unités combattantes.
