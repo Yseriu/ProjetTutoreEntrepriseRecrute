@@ -10,19 +10,24 @@ header { height:50px; width:100%; background:red; }
 #homeSearch #contentSearch {
 	width:75%; height:310px;
 	margin:0 auto;
-	padding-top:210px;
+	padding-top:180px;
 	text-align:center;
 }
 
 #homeSearch #contentSearch h1 { color:#fff; text-transform:uppercase; font-size:2.7em; }
-#homeSearch #contentSearch h4 { color:#fff; font-size:0.9em; opacity:0.8; }
+#homeSearch #contentSearch h4 { color:#fff; font-size:0.9em; opacity:0.8; margin-bottom:48px; }
 #homeSearch #contentSearch input { 
-	background-color:#000; color:#fff; border:none; opacity:0.5; 
+	background:#000 url('../img/search.png') no-repeat 13px 20px; color:#fff; border:none; opacity:0.55; 
+	background-size:25px;
 	font-size:1em;
 	padding:25px 50px;
 	width:490px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	transition: opacity 0.1s linear;
 }
 
-#homeSearch #contentSearch input:focus { opacity:0.6; }
+#homeSearch #contentSearch input:focus { opacity:0.65; }
 
 #infosSite { width:100%; height:245px; background:#F5F5F5; }
