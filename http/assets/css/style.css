@@ -1,3 +1,33 @@
+<<<<<<< HEAD
+img{
+	float:left;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+nav{
+	background:#1C7FC5;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 1px;
+}
+
+header>nav>ul>li{
+						display:inline;
+						list-style-type:none;
+						color:white;
+						padding-right: 15px;
+						padding-left: 15px;
+						font-weight:bold;
+						font-size:70%;
+}
+li:hover {
+						color:red;
+}
+
+ul{
+	padding-top: 13px;
+}
+=======
 body { margin:0; padding:5px 0px 0px 0px; font-family:sans-serif; } 
 h4,h3,h2,h1 { margin:0; }
 header { height:50px; width:100%; background:red; }
@@ -23,3 +53,4 @@ header { height:50px; width:100%; background:red; }
 }
 
 #infosSite { width:100%; height:245px; background:#F5F5F5; }
+>>>>>>> 0ae4791bf125121f219ce41e4d1959d426fce531
