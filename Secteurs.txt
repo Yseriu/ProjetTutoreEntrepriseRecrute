@@ -1,0 +1,53 @@
+Secteurs avec le plus de recrutement 
+d'informaticiens en France, en 2012
+
+Secteurs de l'industrie :
+
+Agro-alimentaire, énergie et automobile : Des nouveaux secteurs dont les besoins de recrutement d'informaticiens sont en croissance. 
+Besoin d'une part, des informaticiens formés à l'électronique, sachant gérer des robots et automates interconnectés. 
+Et d'autre part, des informaticiens ayant une solide connaissance de l'entreprise qui pourraient tenir le rôle de manager.
+Ce sont des entreprises qui ont besoin de se centraliser sur l'informatique pour un projet, etc (souvent des groupes industriels). 
+Formation nécessaire : Pas forcement plus de 5 ans.
+
+Grandes entreprises et administrations :
+
+Numérisation de documents (ex : dossiers médicaux dans les hôpitaux)
+Spécialiste dans la virtualisation (conception de logiciels)
+Responsable système d'information 
+Formation nécessaire : Plus de 5 ans.
+
+
+Exemple d'entreprises qui recrutent énormément ou qui ont l'avantage d'être une société riche:
+Cisco :70 000 employés
+Microsoft : 100 000 employés
+NetApp : 500 employés
+SAS : ???
+Google : 40 000 employés
+
+Témoignage :
+
+Guillaume Perrin, responsable SI dans une PME :
+
+Pourquoi et comment devient t-on responsable SI ?
+« Les entreprises attendent de leur responsable SI qu’il connaisse l’ensemble du fonctionnement de leur système d’information. Il n’est donc pas rare qu’elles cherchent parmi leurs chefs de projets celui qui en a la vision la plus globale. C’était mon cas. J’étais spécialisé sur le système de reporting financier, mais très vite j’ai cherché à comprendre comment s’articulait toute la chaîne. Je ne suis resté chef de projet que 7 mois, ce qui est plutôt atypique. D’habitude, il faut 2 ans d’expérience à ce poste pour devenir responsable SI. »
+
+
+Quel est l’aspect le plus gratifiant de ce métier ? Son principal inconvénient ?
+« Ma première satisfaction est de constater le gain de temps ou d’argent que les applications que nous mettons en place apportent aux utilisateurs et à la société. Et puis, j’ai découvert le management. Je trouve ça très gratifiant de voir évoluer une équipe et de l’aider en ce sens. En revanche, nous sommes constamment sollicités par nos équipes mais aussi par les utilisateurs. Cela demande d’être très organisé et très disponible. Pour être plus efficace, j’ai fixé un rendez-vous quotidien d’une heure avec les fonctions de support, afin de faire le tour de leurs questions. »
+
+Comment voyez-vous évoluer ce métier ?
+« Jusqu’à présent, le responsable SI avait davantage une fonction technique. Au sein des PME, on tend à rapprocher les équipes, entre ceux qui recensent les besoins et ceux qui apportent les améliorations. Le responsable SI va devenir un facilitateur de communication, entre les équipes techniques et métiers. Notre rôle de pédagogue pour transmettre les informations va être de plus en plus important. Nos responsabilités managériales seront assumées par les chefs de projet. Notre mission sera beaucoup plus transverse. »
+
+Sources: http://www.cadresonline.com/conseils/actualites/dossiers-emploi/dossier/article/les-secteurs-les-plus-friands-dinformaticiens.html
+http://www.journaldunet.com/solutions/emploi-rh/recrutement-informatique/
+http://annuaire-metiers.cadres.apec.fr/temoignage/au-sein-des-pme-notre-fonction-va-devenir-de-plus-en-plus-transverse
+
+Les SSII ou les Start-Up:
+(société de services en ingénierie informatique ou entreprise de services du numérique (ESN))
+Ce sont les petites entreprises qui ont énormément de potentiel pour croître économiquement.
+Par exemple : Google, Facebook, Intel, Twitter, Microsoft, étaient des Start-Up.
+Elles représentent 80% des emplois.
+La France est l'un des pays avec le plus de Start-Up : En 2015, à Paris, il y a plus de 12 000 Start-Up (plus que Berlin ou Londre)  
+
+Sources:	http://www.letudiant.fr/jobsstages/nos-conseils/esn-ex-SSII-ou-start-up-jeunes-diplomes-de-l-informatique-comment-choisir-votre-future-entreprise.html
+http://www.capital.fr/enquetes/dossiers/la-france-ce-pays-qui-cree-des-start-up-a-la-chaine-1046517#

@@ -1,0 +1,28 @@
+img{
+	float:left;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+nav{
+	background:#1C7FC5;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 1px;
+}
+
+header>nav>ul>li{
+						display:inline;
+						list-style-type:none;
+						color:white;
+						padding-right: 15px;
+						padding-left: 15px;
+						font-weight:bold;
+						font-size:70%;
+}
+li:hover {
+						color:red;
+}
+
+ul{
+	padding-top: 13px;
+}
