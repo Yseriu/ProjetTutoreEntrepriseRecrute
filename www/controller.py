@@ -60,7 +60,7 @@ def loader():
     return render_template('to_load.html')
 
 def entreprise(entreprise_id):
-    pass
+    return render_template('entreprise.html')
 
 def error(error_id):
     if error_id == 404:

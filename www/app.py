@@ -19,9 +19,12 @@ def process_search():
     else:
         return c.error(404)
 
-@app.route('/pages/entreprise/<int:entreprise_id>')
+@app.route('/entreprise')
 def ent():
-    return c.entreprise(entreprise_id)
+    if request.method == 'GET':
+        return c.entreprise(request.args)
+    else:
+        return c.error(404)
 
 @app.route('/load/search.html')
 def loader():
