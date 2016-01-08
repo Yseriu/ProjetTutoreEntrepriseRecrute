@@ -1,0 +1,24 @@
+{% for data in results %}
+<li>
+	<img src="{{ data.image }}"/>
+	<section>
+		<section class="headerResultSearch">
+			<h4>{{ data.titre }}</h4>
+			<ul>
+				<li><span class="puce puceOrange">{{ data.salaire }} &euro;</span></li>
+				<li><span class="puce puceBleu">{{ data.localisation }}</span></li>
+			</ul>
+		</section>
+		<p>
+			{{ data.description }}
+		</p>
+		<section class="infoResultSearch">
+			<ul>
+				<li><span class="puce puceRouge">{{ data.niveau_etudes_requis }}</span></li>
+				<li><span class="puce puceVerte">{{ data.secteur_activite}}</span></li>
+			</ul>
+			<a class="puce puceLink" href="#">Plus d'informations</a>
+		</section>
+	</section>
+</li>
+{% endfor %}

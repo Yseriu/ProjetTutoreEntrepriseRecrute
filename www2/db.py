@@ -1,12 +1,12 @@
 import sqlite3, os
-conn = sqlite3.connect('database')
+conn = sqlite3.connect("C:\\IUT\\Web\\ProjetTutoreEntrepriseRecrute\\www\\database")
 
 
 entreprises = []
 
-for entreprise in os.listdir("/home/dumontier/P2/PROJET_TUTORE_ER/ProjetTutoreEntrepriseRecrute/Entreprises/"):
-    f = open("/home/dumontier/P2/PROJET_TUTORE_ER/ProjetTutoreEntrepriseRecrute/Entreprises/" + entreprise,'r')
-    lignes  = f.readlines()
+for entreprise in os.listdir("C:\\IUT\\Web\\ProjetTutoreEntrepriseRecrute\\Entreprises\\"):
+    f = open("C:\\IUT\\Web\\ProjetTutoreEntrepriseRecrute\\Entreprises\\" + entreprise,'r')
+    lignes = f.readlines()
     f.close()
     infosEntreprise = []
     for ligne in lignes[0:12]:    
@@ -18,7 +18,7 @@ for entreprise in os.listdir("/home/dumontier/P2/PROJET_TUTORE_ER/ProjetTutoreEn
         if ligneInfo[0] in ["Taille","Pays","Salaire","Lien_offre","Images","Sources"]:
             textBD = textBD.replace(' ',"")
         if ligneInfo[0] in ["Nom"]:
-            if textBD[0] == " ":
+            if textBD and textBD[0] == " ":
                 textBD = textBD[1:]
         if ligneInfo[0] in ["Taille","Salaire"]:
             textBD = textBD

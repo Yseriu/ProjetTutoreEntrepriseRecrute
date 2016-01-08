@@ -28,15 +28,15 @@ function _reloadResearch(){
 		dataSearch[$(this).attr("name")] = valArray;
 	});
 	
-	/*$.ajax({
+	$.ajax({
         url : "load/search.html",
         type : "GET",
         data: dataSearch
     }).done(function(data) {
     	$("#searchResult").html(data);
     	$("#searchResult").show();
-   	});*/
-   	$( "#searchResult" ).load("load/search.html");
+   	});
+   	//$( "#searchResult" ).load("load/search.html");
 }
 
 function _autocompletion(page, resultatContent, inputField){

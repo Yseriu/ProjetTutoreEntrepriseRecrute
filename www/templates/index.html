@@ -1,93 +1,60 @@
-<!doctype html>
-<html lang="fr">
-	<head>
-	  <meta charset="utf-8">
-	  <title>Chez Tux, emplois facile</title>
-	  <link rel="stylesheet" href="assets/css/style.css">
-	</head>
-	<body>
-	  
-	  <header id="menu">
-	  		<img src='assets/img/logo.png'>	
-	  		<nav>			
-					<ul>
-						<li>accueil</li>
-						<li>les metiers
-							<nav>
-								<ul>
-									<li>Programmeur</li>
-									<li>Réseau</li>
-									<li>Web</li>
-									<li>Android / iOS</li>
-									<li>Base de données</li>
-									<li>Jeux vidéo</li>
-								</ul>
-							</nav>
-						</li>
-						<li>les articles</li>
-					</ul>	
-			</nav>			
-	  </header>
-	  
-	  <section id="homeSearch">
-	  	<section id="contentSearch">
-	  		<h1>l'aventure commence ici</h1>
-	  		<h4>Découvrez quelques-uns de nos 300 métiers, choisissez le vôtre !</h4>
-	  		<input type="text" placeholder="Metier, compétence, mot clé ..."/>
-	  		<ul>
-	  			<li>
-	  				<a href="">
-		  				<img src="assets/img/icons/homeSearch_code.png"/>
-		  				<h5>programmeur</h5>
-		  			</a>
-	  			</li>
-	  			<li>
-	  				<a href="">
-	  					<img src="assets/img/icons/homeSearch_network.png"/>
-	  					<h5>réseau</h5>
-	  				</a>
-	  			</li>
-	  			<li>
-	  				<a href="">
-		  				<img src="assets/img/icons/homeSearch_web.png"/>
-		  				<h5>web</h5>
-	  				</a>
-	  			</li>
-	  			<li>
-	  				<a href="">
-		  				<img src="assets/img/icons/homeSearch_android.png"/>
-		  				<h5>android / ios</h5>
-	  				</a>
-	  			</li>
-	  			<li>
-	  				<a href="">
-		  				<img src="assets/img/icons/homeSearch_bdd.png"/>
-		  				<h5>base de données</h5>
-	  				</a>
-	  			</li>
-	  			<li>
-	  				<a href="">
-		  				<img src="assets/img/icons/homeSearch_game.png"/>
-		  				<h5>jeux vidéo</h5>
-		  			</a>
-	  			</li>
-	  		</ul>
-	  	</section>
-	  </section>
-	  
-	  <section id="infosSite">
-	  	<h2>202 122 offres à pourvoir maintenant</h2>
-	  	<h3>Des milliers d'entreprises recrutent sur <span>Tux Recrutement</span>. Ne manquez pas ces opportunités</h3>
-	  	<ul>
-	  		<li><a href=""><img src="assets/img/entreprises/atos.png"/></a></li>
-	  		<li><a href=""><img src="assets/img/entreprises/blablacar.png"/></a></li>
-	  		<li><a href=""><img src="assets/img/entreprises/capgemini.png"/></a></li>
-	  		<li><a href=""><img src="assets/img/entreprises/thales.png"/></a></li>
-	  		<li><a href=""><img src="assets/img/entreprises/winamax.png"/></a></li>
-	  	</ul>
-	  </section>
-	  
-	</body>
-	<script src="assets/js/jquery.js"></script>
-	<script src="assets/js/script.js"></script>
-</html>
+{% extends 'layout.html' %}
+{% block body %}
+<section id="homeSearch">
+	<section id="contentSearch">
+		<h1>l'aventure commence ici</h1>
+		<h4>Découvrez quelques-uns de nos 300 métiers, choisissez le vôtre !</h4>
+		<input type="text" placeholder="Metier, compétence, mot clé ..."/>
+		<ul>
+			<li>
+				<a href="">
+					<img src="assets/img/icons/homeSearch_code.png"/>
+					<h5>programmeur</h5>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="assets/img/icons/homeSearch_network.png"/>
+					<h5>réseau</h5>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="assets/img/icons/homeSearch_web.png"/>
+					<h5>web</h5>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="assets/img/icons/homeSearch_android.png"/>
+					<h5>android / ios</h5>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="assets/img/icons/homeSearch_bdd.png"/>
+					<h5>base de données</h5>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="assets/img/icons/homeSearch_game.png"/>
+					<h5>jeux vidéo</h5>
+				</a>
+			</li>
+		</ul>
+	</section>
+</section>
+
+<section id="infosSite">
+	<h2>202 122 offres à pourvoir maintenant</h2>
+	<h3>Des milliers d'entreprises recrutent sur <span>Tux Recrutement</span>. Ne manquez pas ces opportunités</h3>
+	<ul>
+		<li><a href=""><img src="assets/img/entreprises/atos.png"/></a></li>
+		<li><a href=""><img src="assets/img/entreprises/blablacar.png"/></a></li>
+		<li><a href=""><img src="assets/img/entreprises/capgemini.png"/></a></li>
+		<li><a href=""><img src="assets/img/entreprises/thales.png"/></a></li>
+		<li><a href=""><img src="assets/img/entreprises/winamax.png"/></a></li>
+	</ul>
+</section>
+{% endblock %}
