@@ -51,7 +51,8 @@ def process_search(args):
     r = sqlite3.connect(db_name).execute(q)
     row = r.fetchone()
     while row:
-        ans.append({['titre', 'localisation', 'salaire', 'poste', 'secteur_activite'][i] : tuple(row)[i] for i in range(5)})
+        ans.append({['titre', 'localisation', 'taille', 'poste', 'secteur_activite', 'salaire', 'niveau_etudes_requis', 'tags', 'sources', 'lien', 'image', 'description'][i] : tuple(row)[i] for i in range(12)})
+        ans[-1]['image'] = ans[-1]['image'].replace('//', '://')
         row = r.fetchone()
 
     return render_template('results.html', results = ans)
