@@ -1,7 +1,10 @@
 import sqlite3
+
 db_name = 'database'
 
 query_select_offre = 'SELECT * FROM entreprises WHERE Nom=?'
+
+table_list = ['titre', 'localisation', 'taille', 'poste', 'secteur_activite', 'salaire', 'niveau_etudes_requis', 'tags', 'sources', 'lien', 'image', 'description']
 
 class list_offres(object):
 

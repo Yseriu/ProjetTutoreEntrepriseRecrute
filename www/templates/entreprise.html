@@ -1,8 +1,7 @@
 {% extends 'layout.html' %}
 {% block body %}
 <section id="topHeader">
-	<h1>michel et augustin</h1>
-	<span class="puce"><b>45</b> résultats trouvé</span>
+	<h1>{{ data.titre }}</h1>
 </section>
 
 <section id="bodyPage">
@@ -28,13 +27,13 @@
 			<li>
 				<h5>Salaire</h5>
 				<ul class="sousMenu">
-					<li><label>40 000€/an</label></li>
+					<li><label>{{ data.salaire }}€/an</label></li>
 				</ul>
 			</li>
 			<li>
 				<h5>Taille</h5>
 				<ul class="sousMenu">
-					<li><label><img src="../../www2/assets/img/icons/employers.png"/>1000 employers</label></li>
+					<li><label><img src="assets/img/icons/employers.png"/>{{ data.taille }} employ&eacute;s</label></li>
 				</ul>
 			</li>
 			<li>
@@ -42,7 +41,7 @@
 				<ul class="sousMenu">
 					<li>
 						<label>
-							Symphony,PHP,JavaScript
+							{{ data.tags }}
 						</label>
 					</li>
 				</ul>

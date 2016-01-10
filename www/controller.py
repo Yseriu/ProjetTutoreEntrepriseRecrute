@@ -2,6 +2,7 @@ from flask import render_template
 from sqlite3 import *
 from db_config import *
 from jinja import *
+from offre import offre
 
 def index():
     return render_template('index.html')
@@ -51,17 +52,14 @@ def process_search(args):
     r = sqlite3.connect(db_name).execute(q)
     row = r.fetchone()
     while row:
-        ans.append({['titre', 'localisation', 'taille', 'poste', 'secteur_activite', 'salaire', 'niveau_etudes_requis', 'tags', 'sources', 'lien', 'image', 'description'][i] : tuple(row)[i] for i in range(12)})
+        ans.append({table_list[i] : tuple(row)[i] for i in range(12)})
         ans[-1]['image'] = ans[-1]['image'].replace('//', '://')
         row = r.fetchone()
 
     return render_template('results.html', results = ans)
 
-def loader():
-    return render_template('to_load.html')
-
 def entreprise(entreprise_id):
-    return render_template('entreprise.html')
+    return render_template('entreprise.html', data=offre(entreprise_id))
 
 def error(error_id):
     if error_id == 404:

@@ -11,7 +11,6 @@ def index():
 def search():
     return c.search()
 
-#@app.route('/search/process', methods=['GET'])
 @app.route('/load/search.html', methods=['GET'])
 def process_search():
     if request.method == 'GET':
@@ -22,13 +21,9 @@ def process_search():
 @app.route('/entreprise')
 def ent():
     if request.method == 'GET':
-        return c.entreprise(request.args)
+        return c.entreprise(request.args.get('id'))
     else:
         return c.error(404)
-
-@app.route('/load/search.html')
-def loader():
-    return c.loader()
 
 @app.errorhandler(404)
 def page_not_found(error):

@@ -1,21 +1,14 @@
-from flask import Flask
 from sqlite3 import *
 from site_config import *
-from db_config import db_url, query_select_offre
+from db_config import *
 
 class offre(object):
-	def __init__(self, number):
-		self.id = number
-		self.db = sqlite3.connect(db_url)
-		self.hydrate()
-		return self
-		
-	def hydrate(self):
-		self.db.execute(query_select_offre, self.number)
-		r = self.db.fetchone()
-		for k in r.keys():
-			self.setattr(k, r[k])
-		return self
+    def __init__(self, id):
+        self.db = sqlite3.connect(db_name)
+        self.hydrate(id)
 
-	def afficher(self):
-		return render_template('offre.html', self)
+    def hydrate(self, id):
+        r = self.db.execute(query_select_offre, [id]).fetchone()
+        for i in range(len(r)):
+            self.__setattr__(table_list[i], r[i])
+        return self
