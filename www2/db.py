@@ -5,11 +5,12 @@ conn = sqlite3.connect("C:\\IUT\\Web\\ProjetTutoreEntrepriseRecrute\\www\\databa
 entreprises = []
 
 for entreprise in os.listdir("C:\\IUT\\Web\\ProjetTutoreEntrepriseRecrute\\Entreprises\\"):
-    f = open("C:\\IUT\\Web\\ProjetTutoreEntrepriseRecrute\\Entreprises\\" + entreprise,'r')
+    f = open("C:\\IUT\\Web\\ProjetTutoreEntrepriseRecrute\\Entreprises\\" + entreprise,'r', encoding='utf8')
     lignes = f.readlines()
     f.close()
     infosEntreprise = []
-    for ligne in lignes[0:12]:    
+    for ligne in lignes[0:12]:   
+        ligne = ligne.replace('é', '&eacute;').replace('à', '&agrave;') 
         ligneInfo = ligne.replace('\n','').split(':')
         textBD = ""
         for text in ligneInfo[1:]:

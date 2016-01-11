@@ -6,6 +6,7 @@ query_select_offre = 'SELECT * FROM entreprises WHERE Nom=?'
 
 table_list = ['titre', 'localisation', 'taille', 'poste', 'secteur_activite', 'salaire', 'niveau_etudes_requis', 'tags', 'sources', 'lien', 'image', 'description']
 
+
 class list_offres(object):
 
     def __init__(self):
@@ -14,6 +15,7 @@ class list_offres(object):
         self.l = set()
         self.sal = 0
         self.loc = ''
+        self.txt = ''
 
         self.condition = False
 
@@ -48,6 +50,10 @@ class list_offres(object):
         self.loc = localisation
         return self
 
+    def set_txt(self, txt):
+        self.txt = txt
+        return self
+
     def build(self):
         if self.dom != set():
             self.add_condition()
@@ -65,6 +71,12 @@ class list_offres(object):
         if self.loc != '':
             self.add_condition()
             self.ans += ' pays LIKE \'%' + self.loc + '%\' '
+        if self.txt != '':
+            self.add_condition()
+            txtSet = set(self.txt.replace('+', ' ').replace(',', ' ').split(' ')).discard(' ')
+            for t in txtSet:
+                self.ans += ' lower(nom) LIKE \'%' + t + '%\' OR lower(description) LIKE \'%' + t + '%\' OR lower(tags) \'%' + t + '%\' AND '
+            self.ans = self.ans[:-3]
         return self
 
     def get(self):

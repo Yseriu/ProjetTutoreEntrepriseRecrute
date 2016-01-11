@@ -7,8 +7,11 @@ from offre import offre
 def index():
     return render_template('index.html')
 
-def search():
-    return render_template('search.html')
+def search(args=None):
+    if args == None:
+        return render_template('search.html')
+    else:
+        return render_template('search.html', args=args)
 
 def process_search(args):
 
@@ -44,6 +47,9 @@ def process_search(args):
 
     if args.get('txt:localisation'):
         search.set_localisation(args.get('txt:localisation'))
+
+    if args.get('txt:txt'):
+        search.set_txt(args.get('txt:txt'))
 
     # querry time !
     q = search.build().get()

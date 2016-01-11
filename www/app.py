@@ -9,7 +9,10 @@ def index():
 
 @app.route('/search')
 def search():
-    return c.search()
+    if request.method == 'GET':
+        return c.search(request.args)
+    else:
+        return c.search()
 
 @app.route('/load/search.html', methods=['GET'])
 def process_search():

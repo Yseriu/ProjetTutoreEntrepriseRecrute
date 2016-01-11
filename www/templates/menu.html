@@ -1,11 +1,11 @@
-<img src='assets/img/logo.png'>
+<img src="{{ url_for('static', filename='img/logo.png') }}">
 <nav>
     <ul>
-        <li>accueil</li>
+        <li><a href="{{ url_for('index') }}">accueil</a></li>
         <li>les metiers
             <nav>
                 <ul>
-                    <li>Programmeur</li>
+                    <li><a href="{{ url_for('search') }}?txt:txt=programmeur">Programmeur</a></li>
                     <li>Réseau</li>
                     <li>Web</li>
                     <li>Android / iOS</li>
