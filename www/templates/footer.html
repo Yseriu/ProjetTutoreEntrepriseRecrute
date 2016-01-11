@@ -1,0 +1,25 @@
+
+<section id="f_logo">
+		<img src="{{ url_for('static', filename='img/logo.png') }}">
+</section>
+
+<section id="f_site">
+	<ul>
+		<li><h4>Le Site</h4></li>
+		<li><a href="/">Accueil</a></li>
+		<li>Qui sommes nous?</li>
+		<li>Nous contacter</li>
+	</ul>
+</section>
+
+<section id="f_metiers">
+	<ul>
+		<li><h4>Les Métiers</h4></li>
+		<li><a href="{{ url_for('search') }}?chkprog=on">Programmeur</a></li>
+		<li><a href="{{ url_for('search') }}?chkreseau=on">Réseau</a></li>
+		<li><a href="{{ url_for('search') }}?chkweb=on">Web</a></li>
+		<li><a href="{{ url_for('search') }}?chkios=on">Andriod / IOs</a></li>
+		<li><a href="{{ url_for('search') }}?chkbdd=on">WeBase de données</a></li>
+		<li><a href="{{ url_for('search') }}?chkgames=on">Jeux Vidéo</a></li>
+	</ul>
+</section>
