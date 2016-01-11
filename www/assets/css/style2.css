@@ -293,7 +293,7 @@ footer > #f_metiers{
 footer  ul{
 
 	list-style: none;
-	flex: 1 1 30%%;
+	flex: 1 1 30%;
 	padding-right: 2%;
 	margin-right: 10%;
 	border-right: 1px rgb(200,200,200) dashed;
@@ -303,7 +303,7 @@ footer a{
 	color: white;
 }
 
-footer  h4{
+footer h4{
 	border-bottom: 1px rgb(200,200,200) dashed;
 }
 

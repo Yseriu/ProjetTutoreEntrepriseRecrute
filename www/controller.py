@@ -68,7 +68,7 @@ def process_search(args):
         ans[-1]['description'] = ans[-1]['description'][:limit]+' ...'
         row = r.fetchone()
 
-    return render_template('results.html', results = ans)
+    return render_template('results.html', results=ans)
 
 def entreprise(entreprise_id):
     return render_template('entreprise.html', data=offre(entreprise_id))

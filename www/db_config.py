@@ -87,10 +87,12 @@ class list_offres(object):
             self.ans += ' pays LIKE \'%' + self.loc + '%\' '
         if self.txt != '':
             self.add_condition()
-            txtSet = set(self.txt.replace('+', ' ').replace(',', ' ').split(' ')).discard(' ')
+            txtSet = set((self.txt+' ').replace('+', ' ').replace(',', ' ').split(' '))
+            txtSet.discard(' ')
+            txtSet.discard('')
             for t in txtSet:
-                self.ans += ' lower(nom) LIKE \'%' + t + '%\' OR lower(description) LIKE \'%' + t + '%\' OR lower(tags) \'%' + t + '%\' AND '
-            self.ans = self.ans[:-3]
+                self.ans += ' lower(nom) LIKE \'%' + t + '%\' OR lower(description) LIKE \'%' + t + '%\' OR lower(tags) LIKE \'%' + t + '%\' AND '
+            self.ans = self.ans[:-4]
         return self
 
     def get(self):

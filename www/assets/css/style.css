@@ -359,3 +359,46 @@ header#menu nav ul li:hover nav { display:block; }
 #infosSite h3 span { color:#03639D; }
 #infosSite ul { margin-top: 50px; }
 #infosSite ul li { display: inline-block; list-style: none; padding: 0px 35px; }
+
+
+/* FOOTER */
+
+footer{
+	margin-top: 5%;
+	background-color: #1C7FC5;
+	color: white;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+footer > #f_logo{
+	flex: 0 0 10%;
+	padding-top: 25%;
+	padding-bottom: 25%;
+}
+
+footer > #f_site{
+	flex: 1 1 10%;
+	display: flex;
+}
+
+footer > #f_metiers{
+	flex: 2 2 10%;
+	display: flex;
+}
+
+footer ul{
+	list-style: none;
+	flex: 1 1 30%;
+	padding-right: 2%;
+	margin-right: 10%;
+	border-right: 1px rgb(200,200,200) dashed;
+}
+
+footer a{
+	color: white;
+}
+
+footer h4{
+	border-bottom: 1px rgb(200,200,200) dashed;
+}

@@ -13,6 +13,11 @@
 </header>
 {% block body %}
 {% endblock %}
+<footer>
+{% block footer %}
+{% include 'footer.html' %}
+{% endblock %}
+</footer>
 </body>
 {% block js %}
 <script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
