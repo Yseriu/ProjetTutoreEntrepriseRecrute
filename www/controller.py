@@ -2,6 +2,7 @@ from flask import render_template
 from sqlite3 import *
 from db_config import *
 from offre import offre
+from article import *
 
 def index():
     return render_template('index.html')
@@ -73,10 +74,10 @@ def entreprise(entreprise_id):
     return render_template('entreprise.html', data=offre(entreprise_id))
 
 def articles():
-    return render_template('articlesList.html')
+    return render_template('articlesList.html', data=ArticleListe().get())
 
 def article(id):
-    return render_template('article.html', Article(id))
+    return render_template('article.html', data=Article(id))
 
 
 
