@@ -7,15 +7,10 @@
 
 <section id="bodyPage">
 	<section class="fullWidth">
-  		<h2>Article 1</h2>
-	  	<p>dzda</p>
-	  	
-	  	<h2>Article 1</h2>
-	  	<p>dzda</p>
-	  	
-	  	<h2>Article 1</h2>
-	  	<p>dzda</p>
-
+		{% for a in data %}
+			<h2>{{ a.titre }}</h2>
+			<p>{{ a.resume }}</p>
+		{% endfor %}
   	</section>
 </section>
 {% endblock %}
