@@ -1,53 +1,74 @@
 {% extends 'layout.html' %}
 {% block body %}
+				
 <section id="topHeader">
-	<h1>{{ data.titre }}</h1>
+<h1>{{ data.titre }}</h1>
 </section>
 
 <section id="bodyPage">
-	<nav>
-		<h4>description</h4>
-		<ul>
-			<li>
-				<h5>Liste des postes</h5>
-				<ul class="sousMenu">
-					{% for poste in data.poste.split(',') %}
-						<li><label>{{ poste }}</label></li>
-					{% endfor %}
-				</ul>
-			</li>
-			<li>
-				<h5>Localisation</h5>
-				<ul class="sousMenu">
-					<li><label><img src="{{ url_for('static', filename='img/flags/France.png') }}"/>France</label></li>
-				</ul>
-			</li>
-			<li>
-				<h5>Salaire</h5>
-				<ul class="sousMenu">
-					<li><label>{{ data.salaire }}€/an</label></li>
-				</ul>
-			</li>
-			<li>
-				<h5>Taille</h5>
-				<ul class="sousMenu">
-					<li><label><img src="{{ url_for('static', filename='img/icons/employers.png') }}"/>{{ data.taille }} employ&eacute;s</label></li>
-				</ul>
-			</li>
-			<li>
-				<h5>Tags</h5>
-				<ul class="sousMenu">
-					<li>
-						<label>
-							{{ data.tags }}
-						</label>
-					</li>
-				</ul>
-			</li>
-		</ul>
-	</nav>
-	<section>
-		{{ data.description }}
+<nav>
+	<h4>informations</h4>
+	<ul>
+		<li>
+			<h5>Activité</h5>
+			<ul class="sousMenu">
+				{% for activite in data.secteur_activite.split(',') %}
+					<li><label>{{ activite }}</label></li>
+				{% endfor %}
+			</ul>
+		</li>
+		<li>
+			<h5>Localisation</h5>
+			<ul class="sousMenu">
+				<li><label><img src="assets/img/flags/{{ data.localisation.split(',')[0] }}.png">{{ data.localisation }}</label></li>
+			</ul>
+		</li>
+		<li>
+			<h5>Taille</h5>
+			<ul class="sousMenu">
+				<li><label><img src="assets/img/icons/employers.png">{{ data.taille }} employ&eacute;s</label></li>
+			</ul>
+		</li>
+		<li>
+			<h5>Salaire</h5>
+			<ul class="sousMenu">
+				<li><label>{{ data.salaire }} €/an</label></li>
+			</ul>
+		</li>
+		<li>
+			<h5>Niveau d'étude</h5>
+			{% for etude in data.niveau_etudes_requis.split(',') %}
+				<span class="puce puceRouge">{{ etude }}</span>
+			{% endfor %}
+		</li>
+		<li>
+			<h5>Tags</h5>
+			<ul class="sousMenu">
+				{% for tags in data.tags.split(',') %}
+					<li><span class="puce puceBleu">{{ tags }}</span></li>
+				{% endfor %}
+			</ul>
+		</li>
+		<li>
+			<h5>Sources</h5>
+			<ul class="sousMenu">
+				<li><a href="{{ data.sources }}">{{ data.sources.split('//')[1].split('/')[0] }}</a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+<section>
+	<h2>Description entreprise</h2>
+	<section class="presentationEntreprise">
+		<img src="{{ data.image }}">
+		<p>{{ data.description }}</p>
 	</section>
+	<h2>Postes a pourvoir</h2>
+	<ul class="listePoste">
+		{% for poste in data.poste.split(',') %}
+			<li><span>{{ poste }}</span><a class="puce puceLink" href="{{ data.lien }}">Lien vers l'offre</a></li>
+		{% endfor %}
+	</ul>
+</section>
 </section>
 {% endblock %}
