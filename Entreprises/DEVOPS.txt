@@ -1,9 +1,9 @@
 Nom: DEVOPS (Projet)
 Pays: France
-Taille: Start-Up
+Taille: 58
 Poste: Programmeur SQL, Bash
 Secteur_activite: Systèmes d'informations
-Salaire: 30 à 40 000 €/an
+Salaire:40000
 Niveau_etude_requis: 2 à 5 ans
 Tags: CDI
 Sources: http://www.directemploi.com/offre/2815424/developpeur-confirme-php5-poo-pionner-dans-l-industrie-de-l-aeronautique

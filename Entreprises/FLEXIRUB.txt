@@ -3,7 +3,7 @@ Pays: France
 Taille: 40
 Poste: Responsable des systèmes d'information
 Secteur_activite: Conception, Production de structures souples (membranes elastomères)
-Salaire: 35 000 €/an
+Salaire:35000
 Niveau_etude_requis: +2 +5
 Tags: CDI, sage, Excel, Word, VBA, SQL
 Sources: http://www.directemploi.com/offre/2827553/responsable-des-systemes-d-information

@@ -1,9 +1,9 @@
 Nom: Wahoo Fitness
 Pays: USA, Georgie
-Taille: PME
+Taille: 1600
 Poste: Ingénieur, Dev
 Secteur_activite: Sport
-Salaire: 
+Salaire: 36500
 Niveau_etude_requis: +3
 Tags: java, c++, python, php, iOS
 Sources: 

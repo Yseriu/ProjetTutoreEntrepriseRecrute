@@ -1,9 +1,9 @@
 Nom: Vesperia Group
 Pays: Belgique
-Taille: Moyenne
+Taille: 250
 Poste: Dev
 Secteur_activite: IT
-Salaire: 
+Salaire: 27800
 Niveau_etude_requis: +3
 Tags: CDI, PHP, Drupal
 Sources: http://www.vesperiagroup.com/

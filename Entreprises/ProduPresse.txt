@@ -1,9 +1,9 @@
 Nom:ProduPresse
 Pays: Belgique
-Taille:
+Taille:250
 Poste: Web Developper
 Secteur_activite: Presse
-Salaire: (non renseigné)
+Salaire:25000
 Niveau_etude_requis: bac à bac +2
 Tags: CDI, temps plein
 Sources: http://www.produpress.be/

@@ -3,7 +3,7 @@ Pays: USA, Massachusetts
 Taille: 2700
 Poste: Dev Web Serverside
 Secteur_activite: Voyage
-Salaire: 
+Salaire:34600 
 Niveau_etude_requis: +2, +3
 Tags: java, python, sql, shell
 Sources:

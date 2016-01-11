@@ -1,9 +1,9 @@
-Nom: CGI Luxembourg
-Pays: Luxembourg
-Taille: 68000
+Nom:CGI Luxembourg
+Pays:Luxembourg
+Taille:68000
 Poste: Analyste Développeurs mobile Android
 Secteur_activite: Variés 
-Salaire: (Non Renseigné)
+Salaire: 25000
 Niveau_etude_requis: Bac +5
 Tags: CDI
 Sources: http://www.cgi.com/fr/luxembourg
