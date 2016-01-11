@@ -3,7 +3,7 @@ Pays: France, Belgique, Allemagne, GB (Teletravail)
 Taille: 28000
 Poste: Analyste, Dev
 Secteur_activite: Emploi
-Salaire: 
+Salaire:27500
 Niveau_etude_requis: +3
 Tags: CDD, PHP, JavaScript, SQL
 Sources: https://www.randstad.be/

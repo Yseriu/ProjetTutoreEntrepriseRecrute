@@ -3,7 +3,7 @@ Pays: Belgique
 Taille: 40
 Poste: Web Designer
 Secteur_activite: Emploi
-Salaire:
+Salaire:24500
 Niveau_etude_requis: +1
 Tags:HTML, Flash, JavaScript, PhotoShop
 Sources: http://www.stepstone.be

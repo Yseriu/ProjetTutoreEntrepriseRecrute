@@ -1,6 +1,6 @@
 Nom: Armée
 Pays: France
-Taille: 
+Taille:780000
 Poste: Combatant du renseignement
 Secteur_activite: Armée
 Salaire: 22000

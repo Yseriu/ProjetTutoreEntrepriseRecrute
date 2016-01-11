@@ -3,7 +3,7 @@ Pays:France,Paris
 Taille:500
 Poste:Developpeur Java,Developpeur IOS,Ingénieur Production,Chef de projet E-Commerce,Ingénieur analyste,
 Secteur_activite:Web
-Salaire:15000,15000,60000,55000,70000,80000,55000,650000,75000
+Salaire:55000
 Niveau_etude_requis:+3,+2,DUT,Ingenieur,+5
 Tags:CRM,Java,php,ios,android,linux,apache,sql
 Sources:https://www.chooseyourboss.com/companies/expedia,www.expediainc.com/expedia-brands

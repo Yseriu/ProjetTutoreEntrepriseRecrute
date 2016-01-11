@@ -1,9 +1,9 @@
 Nom:Irysius
 Pays:France
 Taille:5
-Poste:
+Poste:Informatitien
 Secteur_activite:Gestion des données,Messagerie,Hébergement,Sécurisation
-Salaire:
+Salaire:45000
 Niveau_etude_requis:
 Tags:BDD,Sécurité,Hébergement
 Sources:www.irysius.fr,www.societe.com

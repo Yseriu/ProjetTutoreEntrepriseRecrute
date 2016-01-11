@@ -1,9 +1,9 @@
 Nom:Landewyck
 Pays: Luxemburg
-Taille: 
+Taille:150
 Poste: Analyste programmer Delphi(Win32) 
 Secteur_activite: Industrie
-Salaire: (Non Renseigné)
+Salaire:35000
 Niveau_etude_requis: bac +3
 Tags: CDI temps, plein
 Sources: http://www.hvl.lu/
