@@ -20,13 +20,15 @@
 		<li>
 			<h5>Localisation</h5>
 			<ul class="sousMenu">
-				<li><label><img src="assets/img/flags/{{ data.localisation.split(',')[0] }}.png">{{ data.localisation }}</label></li>
+				{% for loca in data.localisation.split(',') %}
+					<li><label><img src="{{ url_for('static', filename='img/flags/' + loca + '.png') }}">{{ loca }}</label></li>
+				{% endfor %}
 			</ul>
 		</li>
 		<li>
 			<h5>Taille</h5>
 			<ul class="sousMenu">
-				<li><label><img src="assets/img/icons/employers.png">{{ data.taille }} employ&eacute;s</label></li>
+				<li><label><img src="{{ url_for('static', filename='img/icons/employers.png') }}">{{ data.taille }} employ&eacute;s</label></li>
 			</ul>
 		</li>
 		<li>
