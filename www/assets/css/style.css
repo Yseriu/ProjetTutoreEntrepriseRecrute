@@ -247,10 +247,20 @@ header#menu nav ul li:hover nav { display:block; }
 	padding: 10px;
 }
 
-#bodyPage > section > ul#searchResult > li > img {
+#bodyPage > section > ul#searchResult > li > .infoEntreprise {
+	width:80%;
+}
+
+#bodyPage > section > ul#searchResult > li > .imgEntreprise {
 	width: 200px;
 	height: 90px;
 	margin-right: 10px;
+	text-align:center;
+}
+
+#bodyPage > section > ul#searchResult > li > .imgEntreprise > img {
+	max-width:95%;
+	max-height:95%;
 }
 
 #bodyPage > section > ul#searchResult > li > section > .headerResultSearch {
