@@ -2,7 +2,7 @@
 {% block body %}
 <section id="topHeader">
     <h1>réseau, sécurité</h1>
-    <span class="puce"><b>45</b> résultats trouvé</span>
+    <span class="puce"><b>45</b> résultats trouvés</span>
 </section>
 <section id="bodyPage">
     <nav>
@@ -19,6 +19,8 @@
                     <li><label><input class="searchField" name="chkreseau" type="checkbox" {% if args.get('chkreseau') == 'on' %}checked{% endif %}>R&eacute;seau</label><span>4</span></li>
                     <li><label><input class="searchField" name="chkweb" type="checkbox" {% if args.get('chkweb') == 'on' %}checked{% endif %}>Web</label><span>6</span></li>
                     <li><label><input class="searchField" name="chkios" type="checkbox" {% if args.get('chkios') == 'on' %}checked{% endif %}>Android / iOs</label><span>5</span></li>
+                    <li><label><input class="searchField" name="chkbdd" type="checkbox" {% if args.get('chkbdd') == 'on' %}checked{% endif %}>Bases de donn&eacute;es</label><span>5</span></li>
+                    <li><label><input class="searchField" name="chkgames" type="checkbox" {% if args.get('chkgames') == 'on' %}checked{% endif %}>Jeux vid&eacute;os</label><span>5</span></li>
                 </ul>
             </li>
             <li>

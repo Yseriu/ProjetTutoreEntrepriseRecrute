@@ -7,7 +7,9 @@ query_select_offre = 'SELECT * FROM entreprises WHERE Nom=?'
 table_list = ['titre', 'localisation', 'taille', 'poste', 'secteur_activite', 'salaire', 'niveau_etudes_requis', 'tags', 'sources', 'lien', 'image', 'description']
 
 domaines = {'ios' : ('ios', 'android'),
-            'prog' : ('programmation', 'programmeur')}
+            'prog' : ('programmation', 'programmeur'),
+            'bdd' : ('base de donnees',),
+            'games' : ('jeu',)}
 
 class list_offres(object):
 

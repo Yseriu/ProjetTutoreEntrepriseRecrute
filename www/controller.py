@@ -28,7 +28,7 @@ def process_search(args):
             search.add_level(nom)
         else:
             search.remove_level(nom)
-    domaines = {'prog','reseau','web','ios'}
+    domaines = {'prog','reseau','web','ios', 'games', 'bdd'}
     for dom in domaines:
         if args.get('chk'+dom): process_arg_dom(dom, args.get('chk'+dom))
 

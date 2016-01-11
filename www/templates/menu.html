@@ -1,4 +1,4 @@
-<img src="{{ url_for('static', filename='img/logo.png') }}">
+<a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='img/logo.png') }}"></a>
 <nav>
     <ul>
         <li><a href="{{ url_for('index') }}">accueil</a></li>
@@ -9,8 +9,8 @@
                     <li><a href="{{ url_for('search') }}?chkreseau=on">Réseau</a></li>
                     <li><a href="{{ url_for('search') }}?chkweb=on">Web</a></li>
                     <li><a href="{{ url_for('search') }}?chkios=on">Android / iOS</a></li>
-                    <li>Base de données</li>
-                    <li>Jeux vidéo</li>
+                    <li><a href="{{ url_for('search') }}?chkbdd=on">Base de données</a></li>
+                    <li><a href="{{ url_for('search') }}?chkgames=on">Jeux vidéo</a></li>
                 </ul>
             </nav>
         </li>
