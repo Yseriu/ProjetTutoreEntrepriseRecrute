@@ -28,6 +28,14 @@ def ent():
     else:
         return c.error(404)
 
+@app.route('/art')
+def articles():
+    return c.articles
+
+@app.route('/art/<int:id')
+def article(id):
+    return c.article(id)
+
 @app.errorhandler(404)
 def page_not_found(error):
     return c.error(404)

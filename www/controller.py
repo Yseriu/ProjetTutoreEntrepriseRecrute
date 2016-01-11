@@ -72,6 +72,15 @@ def process_search(args):
 def entreprise(entreprise_id):
     return render_template('entreprise.html', data=offre(entreprise_id))
 
+def articles():
+    return render_template('articlesList.html')
+
+def article(id):
+    return render_template('article.html', art(id))
+
+
+
+
 def error(error_id):
     if error_id == 404:
         return render_template('404.html')
