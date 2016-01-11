@@ -6,6 +6,8 @@ query_select_offre = 'SELECT * FROM entreprises WHERE Nom=?'
 
 table_list = ['titre', 'localisation', 'taille', 'poste', 'secteur_activite', 'salaire', 'niveau_etudes_requis', 'tags', 'sources', 'lien', 'image', 'description']
 
+domaines = {'ios' : ('ios', 'android'),
+            'prog' : ('programmation', 'programmeur')}
 
 class list_offres(object):
 
@@ -27,7 +29,11 @@ class list_offres(object):
             self.ans += ' AND '
 
     def add_domaine(self, domaine):
-        self.dom.add(domaine)
+        if domaine in domaines:
+            for d in domaines[domaine]:
+                self.dom.add(d)
+        else:
+            self.dom.add(domaine)
         return self
 
     def remove_domaine(self, domaine):
@@ -58,7 +64,7 @@ class list_offres(object):
         if self.dom != set():
             self.add_condition()
             for domaine in self.dom:
-                self.ans += ' lower(secteur_activite) LIKE \'%'+domaine+'%\' OR '
+                self.ans += ' lower(secteur_activite) LIKE \'%'+domaine+'%\' OR lower(poste) LIKE \'%'+domaine+'%\' OR '
             self.ans = self.ans[:-3]
         if self.l != set():
             self.add_condition()
