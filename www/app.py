@@ -30,9 +30,9 @@ def ent():
 
 @app.route('/art')
 def articles():
-    return c.articles
+    return c.articles()
 
-@app.route('/art/<int:id')
+@app.route('/art/<int:id>')
 def article(id):
     return c.article(id)
 
