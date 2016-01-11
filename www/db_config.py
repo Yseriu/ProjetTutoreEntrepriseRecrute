@@ -4,6 +4,8 @@ db_name = 'database'
 
 query_select_offre = 'SELECT * FROM entreprises WHERE Nom=?'
 
+query_select_article = 'SELECT * FROM articles WHERE id=?'
+
 table_list = ['titre', 'localisation', 'taille', 'poste', 'secteur_activite', 'salaire', 'niveau_etudes_requis', 'tags', 'sources', 'lien', 'image', 'description']
 
 article_schema = ['id', 'titre', 'content']

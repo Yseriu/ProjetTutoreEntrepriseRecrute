@@ -76,7 +76,7 @@ def articles():
     return render_template('articlesList.html')
 
 def article(id):
-    return render_template('article.html', art(id))
+    return render_template('article.html', Article(id))
 
 
 
