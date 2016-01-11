@@ -1,7 +1,6 @@
 from flask import render_template
 from sqlite3 import *
 from db_config import *
-from jinja import *
 from offre import offre
 
 def index():
@@ -29,7 +28,7 @@ def process_search(args):
             search.add_level(nom)
         else:
             search.remove_level(nom)
-    domaines = {'securite','environnement','bdd','telephonie'}
+    domaines = {'prog','reseau','web','ios'}
     for dom in domaines:
         if args.get('chk'+dom): process_arg_dom(dom, args.get('chk'+dom))
 
@@ -60,6 +59,12 @@ def process_search(args):
     while row:
         ans.append({table_list[i] : tuple(row)[i] for i in range(12)})
         ans[-1]['image'] = ans[-1]['image'].replace('//', '://')
+        ans[-1]['lien'] = ans[-1]['lien'].replace('//', '://')
+        ans[-1]['sources'] = ans[-1]['sources'].replace('//', '://')
+        limit = 370
+        while limit < len(ans[-1]['description']) and ans[-1]['description'][limit] != ' ':
+            limit += 1
+        ans[-1]['description'] = ans[-1]['description'][:limit]+' ...'
         row = r.fetchone()
 
     return render_template('results.html', results = ans)

@@ -7,19 +7,19 @@
 		<input type="text" placeholder="Metier, compétence, mot clé ..."/>
 		<ul>
 			<li>
-				<a href="">
+				<a href="{{ url_for('search') }}?chkprog=on">
 					<img src="assets/img/icons/homeSearch_code.png"/>
 					<h5>programmeur</h5>
 				</a>
 			</li>
 			<li>
-				<a href="">
+				<a href="{{ url_for('search') }}?chkreseau=on">
 					<img src="assets/img/icons/homeSearch_network.png"/>
 					<h5>réseau</h5>
 				</a>
 			</li>
 			<li>
-				<a href="">
+				<a href="{{ url_for('search') }}?chkweb=on">
 					<img src="assets/img/icons/homeSearch_web.png"/>
 					<h5>web</h5>
 				</a>
@@ -31,7 +31,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="">
+				<a href="{{ url_for('search') }}?chkios=on">
 					<img src="assets/img/icons/homeSearch_bdd.png"/>
 					<h5>base de données</h5>
 				</a>
