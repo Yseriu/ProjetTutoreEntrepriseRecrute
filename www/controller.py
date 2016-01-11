@@ -2,6 +2,7 @@ from flask import render_template
 from sqlite3 import *
 from db_config import *
 from offre import offre
+from article import *
 
 def index():
     return render_template('index.html')
