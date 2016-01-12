@@ -68,7 +68,7 @@
 	<h2>Postes a pourvoir</h2>
 	<ul class="listePoste">
 		{% for poste in data.poste.split(',') %}
-			<li><span>{{ poste }}</span><a class="puce puceLink" href="{{ data.lien }}">Lien vers l'offre</a></li>
+			<li><span>{{ poste }}</span><a class="puce puceLink" href="/redirect?link={{ data.lien }}">Lien vers l'offre</a></li>
 		{% endfor %}
 	</ul>
 </section>
