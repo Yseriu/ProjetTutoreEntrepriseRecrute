@@ -52,5 +52,20 @@ def page_not_found(error):
 def autoComp():
     return ''
 
+@app.route('/contact')
+def contact():
+    return c.contact()
+
+@app.route('/contact/send', methods=['GET'])
+def send():
+    if request.method == 'GET':
+        return c.send(request.args)
+    else:
+        return c.error(404)
+
+@app.route('/who')
+def who():
+    return c.who()
+
 if __name__ == '__main__':
     app.run(debug=True)

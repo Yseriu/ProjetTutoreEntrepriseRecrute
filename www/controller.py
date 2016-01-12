@@ -3,6 +3,7 @@ from sqlite3 import *
 from db_config import *
 from offre import offre
 from article import Article, ArticlesListe
+from smtplib import *
 
 def index():
     return render_template('index.html')
@@ -78,8 +79,18 @@ def articles():
 def article(id):
     return render_template('article.html', data=Article(id))
 
+def contact():
+    return render_template('contact.html')
 
+def who():
+    return render_template('who.html')
 
+def send(args):
+    db = sqlite3.connect(db_name)
+    req = "INSERT INTO mail VALUES ('" + args.get('sender') + "' , '" + args.get('content') + "');"
+    db.execute(req)
+    db.commit()
+    return render_template('sent.html')
 
 def error(error_id):
     if error_id == 404:
