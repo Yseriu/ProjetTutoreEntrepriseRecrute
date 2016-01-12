@@ -373,8 +373,8 @@ footer{
 
 footer > #f_logo{
 	flex: 0 0 10%;
-	padding-top: 25%;
-	padding-bottom: 25%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 footer > #f_site{

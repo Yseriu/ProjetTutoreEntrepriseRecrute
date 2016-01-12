@@ -71,14 +71,16 @@ class list_offres(object):
     def build(self):
         if self.dom != set():
             self.add_condition()
+            self.ans += ' ( '
             for domaine in self.dom:
                 self.ans += ' lower(secteur_activite) LIKE \'%'+domaine+'%\' OR lower(poste) LIKE \'%'+domaine+'%\' OR '
-            self.ans = self.ans[:-3]
+            self.ans = self.ans[:-3] + ' ) '
         if self.l != set():
             self.add_condition()
+            self.ans += ' ( '
             for level in self.l:
                 self.ans += ' niveau_etude_requis LIKE \'%' + level + '%\' OR '
-            self.ans = self.ans[:-3]
+            self.ans = self.ans[:-3] + ' ) '
         if self.sal != 0:
             self.add_condition()
             self.ans += ' salaire > ' + str(self.sal)
@@ -90,9 +92,10 @@ class list_offres(object):
             txtSet = set((self.txt+' ').replace('+', ' ').replace(',', ' ').split(' '))
             txtSet.discard(' ')
             txtSet.discard('')
+            self.ans += ' ( '
             for t in txtSet:
                 self.ans += ' lower(nom) LIKE \'%' + t + '%\' OR lower(description) LIKE \'%' + t + '%\' OR lower(tags) LIKE \'%' + t + '%\' AND '
-            self.ans = self.ans[:-4]
+            self.ans = self.ans[:-4] + ' ) '
         return self
 
     def get(self):

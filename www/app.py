@@ -40,5 +40,9 @@ def article(id):
 def page_not_found(error):
     return c.error(404)
 
+@app.route('/load/localisation.html')
+def autoComp():
+    return ''
+
 if __name__ == '__main__':
     app.run(debug=True)

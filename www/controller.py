@@ -39,7 +39,6 @@ def process_search(args):
     if args.get('chk8'): process_arg_level('8', args.get('chk8'))
 
     if args.get('txt:salaire'):
-        print('salaire')
         try:
             search.set_salaire(int(args.get('txt:salaire')))
         except:
