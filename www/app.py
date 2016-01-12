@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, redirect
 import controller as c
 
 app = Flask(__name__, static_folder='assets')
@@ -27,6 +27,14 @@ def ent():
         return c.entreprise(request.args.get('id'))
     else:
         return c.error(404)
+
+@app.route('/redirect')
+def red():
+    if request.method == 'GET':
+        link = request.args.get('link') 
+        if link[0:3] == 'www':
+            link = 'http//'+link
+        return redirect(link.replace('//', '://'), 301)
 
 @app.route('/art')
 def articles():
