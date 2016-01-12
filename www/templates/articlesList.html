@@ -1,16 +1,17 @@
 {% extends 'layout.html' %}
 {% block body %}
-				
+
 <section id="topHeader">
-<h1>Articles</h1>
+    <h1>Articles</h1>
 </section>
 
 <section id="bodyPage">
-	<section class="fullWidth">
-		{% for a in data %}
-			<h2>{{ a.titre }}</h2>
-			<p>{{ a.resume }}</p>
-		{% endfor %}
-  	</section>
+    <section class="fullWidth">
+        {% for a in data %}
+        <h2>{{ a.titre }}</h2>
+        <p>{{ a.resume }}</p>
+        <a class="puce puceLink" href="{{ url_for('article', id=a.id) }}">Lire la suite</a>
+        {% endfor %}
+    </section>
 </section>
 {% endblock %}
