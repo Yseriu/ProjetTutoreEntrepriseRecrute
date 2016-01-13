@@ -2,8 +2,8 @@
 {% block body %}
 <section id="homeSearch">
 	<section id="contentSearch">
-		<h1>l'aventure commence ici</h1>
-		<h4>Découvrez quelques-uns de nos 300 métiers, choisissez le vôtre !</h4>
+		<h1>Bienvenue sur le site de Tux</h1>
+		<h4>Ce site vous permettra de trouver de bonnes informations sur le monde professionnel d'un informaticien. Bonne visite !</h4>
 		<form method="get" action="{{ url_for('search') }}">
 		<input type="text" name="txt:txt" placeholder="Metier, compétence, mot clé ..."/>
 		</form>
@@ -49,8 +49,7 @@
 </section>
 
 <section id="infosSite">
-	<h2>202 122 offres à pourvoir maintenant</h2>
-	<h3>Des milliers d'entreprises recrutent sur <span>Tux Recrutement</span>. Ne manquez pas ces opportunités</h3>
+	<h3>A travers nos pages, vous trouverez tout ce que vous avez toujours voulu savoir quant aux possibilités de carrière pour un informaticien :  des <a href="{{ url_for('search') }}"> fiches métiers types</a>, des descriptions des différentes catégories d’organisations recrutant (les entreprises, les administrations, <a href="{{ url_for('article', id=1) }}">l’armée</a> …). Vous trouverez même des indications sur les entreprises étrangères !</h3>
 	<ul>
 		<li><a href=""><img src="assets/img/entreprises/atos.png"/></a></li>
 		<li><a href=""><img src="assets/img/entreprises/blablacar.png"/></a></li>

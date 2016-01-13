@@ -356,7 +356,7 @@ header#menu nav ul li:hover nav { display:block; }
 #infosSite { width:100%; background:#fff; text-align: center; padding: 45px 0px 25px 0px; }
 #infosSite h2 { font-size: 1.9em; color:#44444b; }
 #infosSite h3 { color:#aaaaaa; margin-top: 20px; font-size: 1.5em; }
-#infosSite h3 span { color:#03639D; }
+#infosSite h3 a { color:#03639D; }
 #infosSite ul { margin-top: 50px; }
 #infosSite ul li { display: inline-block; list-style: none; padding: 0px 35px; }
 
